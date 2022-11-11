@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Quicksand:wght@300&display=swap');
+
+/*Página Inicial*/
+#pic_inicio {
+    background-color:rgba(0, 0, 0, 0.7);
+	width:1440px;
+	height:674px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(./Imagens/Fundo\ inicio\ s.jpg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    z-index: 0;
+}
+#logo {
+    width:1366px;
+	height:674px;
+	position:absolute;
+	left:37px;
+	top:0px;
+	background-image:url(./Imagens/InfOsasco-logos/InfOsasco-withe.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.content {
+    background-color: white;
+	width:1221px;
+	height:2340px;
+    position:absolute;
+	left:109px;
+	top:558px;
+	border-radius: 47px;
+    z-index: 2;
+}
+#title {
+    color: black;
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    left: 488px;
+    top: 68px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+#oz_map {
+    width: 392px; 
+    height: 227px;
+    border-radius: 1em;
+    position: absolute;
+    left: 37px;
+    top: 257px;
+    float: left;
+}
+#fp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 475px;
+    top: 310px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#sp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 20px;
+    top: 642px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#favelas {
+    width: 392px;
+    height: 227px;
+    position: absolute;
+    left: 791px;
+    top: 594px;
+    border-radius: 1em;
+}
+#tp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 468px;
+    top: 979px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#Carros {
+    width: 392px;
+    height: 227px;
+    position: absolute;
+    left: 30px;
+    top: 926px;
+    border-radius: 1em;
+}
+#Menk_map {
+    width: 548px;
+    height: 436px;
+    position: absolute;
+    left: 327px;
+    top: 1199px;
+    border-radius: 1em;
+}
+
+/*História*/
+#h_inicio {
+    background-color:rgba(0, 0, 0, 0.7);
+	width: 1440px;
+	height: 674px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image:url(./Imagens/S\ fundo\ 4.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+    z-index: 0;
+}
+#titulo {
+    color: white;
+    width: 268px;
+    height: 108px;
+    position: absolute;
+    left: 586px;
+    top: 283px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 70px;
+    letter-spacing: 0;
+    z-index: 1;
+}
+.h_content {
+    background-color: white;
+    width: 1221px;
+    height: 1191px;
+    position: absolute;
+    left:109px;
+	top:558px;
+	border-radius: 47px;
+    z-index: 2;
+}
+#Antonio{
+    width: 392px; 
+    height: 227px;
+    border-radius: 1em;
+    position: absolute;
+    left: 37px;
+    top: 257px;
+    float: left;
+}
+#fp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 475px;
+    top: 310px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#sp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 20px;
+    top: 642px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#favelas {
+    width: 392px;
+    height: 227px;
+    position: absolute;
+    left: 791px;
+    top: 594px;
+    border-radius: 1em;
+}
+#tp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 468px;
+    top: 979px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#fav {
+    width: 392px;
+    height: 227px;
+    position: absolute;
+    left: 30px;
+    top: 926px;
+    border-radius: 1em;
+}
+#h_footer {
+    background-color: #023047;
+    width: 1440px;
+    height: 544px;
+    position: absolute;
+    left: 0px;
+    top: 1730px;
+    z-index: 0;
+}
+#h_footer a {
+    color: white;
+}
+
+/*Geografia e Locomoção*/
+#g_inicio {
+    background-color:rgba(0, 0, 0, 0.7);
+	width: 1440px;
+	height: 674px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image:url(./Imagens/S\ fundo\ 2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+    z-index: 0;
+}
+#titulo {
+    color: white;
+    width: 268px;
+    height: 108px;
+    position: absolute;
+    left: 586px;
+    top: 283px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 70px;
+    letter-spacing: 0;
+    z-index: 1;
+}
+.g_content {
+    background-color: rgba(255, 255, 255, 1);
+    width: 1221px;
+    height: 1689px;
+    position: absolute;
+    left:109px;
+	top:558px;
+    border-radius: 47px;
+    z-index: 2;
+}
+.gtitle {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#gfp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 39px;
+    top: 310px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#relevo {
+    width: 392px;
+    height: 227px;
+    position: absolute;
+    left: 792px;
+    top: 250px;
+    border-radius: 1em;
+}
+#tabela {
+    width: 392px;
+    height: 227px;
+    position: absolute;
+    left: 37px;
+    top: 547px;
+    border-radius: 1em;
+}
+#gsp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 474px;
+    top: 601px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#locomoção {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 523px;
+    top: 866px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 2em;
+    letter-spacing: 0;
+}
+#gtp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 39px;
+    top: 1050px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#terminal {
+    width: 392px;
+    height: 227px;
+    position: absolute;
+    left: 792px;
+    top: 990px;
+    border-radius: 1em;
+}
+#uber {
+    width: 392px;
+    height: 227px;
+    position: absolute;
+    left: 39px;
+    top: 1287px;
+    border-radius: 1em;
+}
+#gftp {
+    color: black;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    left: 476px;
+    top: 1341px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+#geo_footer {
+    background-color: #023047;
+    width: 1440px;
+    height: 544px;
+    position: absolute;
+    left: 0px;
+    top: 2230px;
+    z-index: 0;
+}
+#geo_footer a {
+    color: white;
+}
+
+/*Saúde e Educação*/
+#s_inicio {
+    background-color:rgba(0, 0, 0, 0.7);
+	width: 1440px;
+	height: 674px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image:url(./Imagens/S\ fundo\ 3.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+    z-index: 0;
+}
+#titulo {
+    color: white;
+    width: 268px;
+    height: 108px;
+    position: absolute;
+    left: 586px;
+    top: 283px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 70px;
+    letter-spacing: 0;
+    z-index: 1;
+}
+.s_content {
+    background-color: rgba(255, 255, 255, 1);
+    width: 1221px;
+    height: 1689px;
+    position: absolute;
+    left:109px;
+	top:558px;
+    border-radius: 47px;
+    z-index: 2;
+}
+#stitle {
+    color: black;
+    width: 116px;
+    height: 50px;
+    position: absolute;
+    left: 553px;
+    top: 76px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 0px;
+}
+#stxt {
+    color: black;
+    width: 853px;
+    height: 120px;
+    position: absolute;
+    left: 217px;
+    top: 191px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+.UPA {
+    width: 1097px;
+    height: 679px;
+    position: absolute;
+    left: 68px;
+    top: 272px;
+}
+#UPA {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 1025px;
+    height: 448px;
+    position: absolute;
+    left: 36px;
+    top: 115px;
+    border-radius: 1em;
+}
+#UPAvm {
+    color: white;
+    width: 969px;
+    height: 88px;
+    position: absolute;
+    left: 64px;
+    top: 251px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 0px;
+}
+#etitle {
+    color: black;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    left: 553px;
+    top: 911px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 0px;
+}
+#etxt {
+    color: black;
+    width: 853px;
+    height: 90px;
+    position: absolute;
+    left: 217px;
+    top: 1026px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+.Escola {
+    width: 1097px;
+    height: 679px;
+    position: absolute;
+    left: 68px;
+    top: 1050px;
+}
+#EUDAL {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 1025px;
+    height: 448px;
+    position: absolute;
+    left: 36px;
+    top: 115px;
+    border-radius: 1em;
+}
+#EUDALt {
+    color: white;
+    width: 969px;
+    height: 176px;
+    position: absolute;
+    left: 64px;
+    top: 251px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 0px;
+}
+#s_footer {
+    background-color: #023047;
+    width: 1440px;
+    height: 544px;
+    position: absolute;
+    left: 0px;
+    top: 2230px;
+    z-index: 0;
+}
+#s_footer a {
+    color: white;
+}
+
+/*Geral*/
+body{
+    margin: 0px;
+}
+header { 
+	background-color:rgba(0, 0, 0, 0.20999999344348907);
+	width:1440px;
+	height:93px;
+	position: fixed;
+	left:0px;
+	top:0px;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 10;
+}
+#Historia { 
+	color:rgba(255, 255, 255, 1);
+	width:117px;
+	height:38.5px;
+	position:absolute;
+	left:1220px;
+	top:32px;
+	font-family: 'Inter', sans-serif;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+    text-decoration: underline;
+}
+#Inicio { 
+	color:rgba(255, 255, 255, 1);
+	width:92px;
+	height:38.5px;
+	position:absolute;
+	left:125px;
+	top:32.204742431640625px;
+	font-family: 'Inter', sans-serif;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+    text-decoration: underline;
+}
+#sauedu { 
+	color:rgba(255, 255, 255, 1);
+	width:258px;
+	height:38px;
+	position:absolute;
+	left:812px;
+	top:31px;
+	font-family: 'Inter', sans-serif;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+    text-decoration: underline;
+}
+#geolo { 
+	color:rgba(255, 255, 255, 1);
+	width:305px;
+	height:38px;
+	position:absolute;
+	left:332px;
+	top:31px;
+	font-family: 'Inter', sans-serif;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+    text-decoration: underline;
+}
+.content {
+    background-color: white;
+	width:1221px;
+	height:1700px;
+    position:absolute;
+	left:109px;
+	top:558px;
+	border-radius: 47px;
+    z-index: 2;
+}
+#footer {
+    background-color: rgba(2.000000118277967, 48.000000938773155, 71.00000336766243, 1);
+    width: 1440px;
+    height: 436px;
+    position: absolute;
+    left: 0px;
+    top: 2230px;
+    z-index: 0;
+    
+}
+#footer_logo {
+    width: 164px;
+    height: 86px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#ftitle {
+    color: white;
+    width: 239px;
+    height: 60px;
+    position: absolute;
+    left: 170px;
+    top: 10px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: 0;
+}
+#pcontent {
+    width: 259px;
+    height: 77px;
+    position: absolute;
+    left: 89px;
+    top: 165px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+#pages {
+    width: 271px;
+    height: 182px;
+    position: absolute;
+    left: 618px;
+    top: 169px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+#Contato {
+    width: 293px;
+    height: 122px;
+    position: absolute;
+    left: 1107px;
+    top: 169px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+#copy {
+    color: white;
+    width: 576px;
+    height: 23px;
+    position: absolute;
+    left: 23px;
+    top: 508px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+#footer a {
+    color: white;
+}
